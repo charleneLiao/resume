@@ -258,4 +258,24 @@ h3.title {
     opacity: 1;
     transform: translate3d(0, 0, 0); }
 
+/*ul*/
+.link {
+  list-style: none;
+  padding: 0;
+  width: 100%; }
+  .link li {
+    box-sizing: border-box;
+    float: left; }
+    .link li a {
+      text-decoration: none;
+      border: 1px solid #13B97D;
+      color: #13B97D;
+      display: inline-block;
+      padding: 15px 10px;
+      border-radius: 10px;
+      margin: 10px; }
+      .link li a:hover {
+        background: #13B97D;
+        color: #fff; }
+
 /*# sourceMappingURL=layout.css.map */

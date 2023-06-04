@@ -1,0 +1,125 @@
+
+
+/*
+=================
+Circle Graph using (https://github.com/rendro/easy-pie-chart)
+================
+*/
+.circle-graph p {
+  text-align: center;
+  padding: 10px;
+  z-index: 100;
+} 
+
+.graph-one {
+  height: 200px; /* set height for postioning */
+  position: relative;
+}
+
+circle-graph-container {
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  top: 71px;
+}
+
+.circle-graph {
+  margin: 20px;
+  float: left;
+}
+
+/*
+=================
+Bar Graph 
+================
+*/
+.bar-graph-container {
+  border-left: 4px solid #000;
+  border-bottom: 4px solid #000; 
+  width: 60%;
+  overflow: hidden;
+
+}
+
+.bar-graph-container p {
+  padding: 20px;
+  color: #fff;
+}
+
+@-webkit-keyframes slide-left {
+   0% {
+     -webkit-transform: translateX(-200%);
+  }
+  70% {
+    -webkit-transform: translateX(2%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(-200%);
+  }
+  
+  70% {
+    -webkit-transform: translateX(2%);
+  }
+  
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+.bar-container {
+  background-color: rgba(231, 184, 239, 0.6);   
+}
+
+.html {
+  width: 85%;
+  background-color: #a378aa;
+  animation: slide-left 0.9s ease-in-out 1s both;
+  -webkit-animation: slide-left 0.9s ease-in-out 1s both;
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+
+.css {
+  width: 80%;
+  background-color: #a378aa;
+  animation: slide-left 1s ease-in-out 1s both;
+ -webkit-animation: slide-left 1s ease-in-out 1s both;
+   animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+
+.js {
+  width: 60%;
+  background-color: #a378aa;
+  animation: slide-left 1s ease-in-out 1s both;
+  -webkit-animation: slide-left 1s ease-in-out 1s both;
+   animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+
+.php {
+  width: 40%;
+  background-color: #a378aa;
+  animation: slide-left 1s ease-in-out 1s both;
+  -webkit-animation: slide-left 1s ease-in-out 1s both;
+   animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+
+.drupal {
+  width: 62%;
+  background-color: #a378aa;
+  animation: slide-left 1s ease-in-out 1s both;
+  -webkit-animation: slide-left 1s ease-in-out 1s both;
+   animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+} 
+

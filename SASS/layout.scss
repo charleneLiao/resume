@@ -264,6 +264,7 @@
     li {
         box-sizing: border-box;
         float: left;
+
         a {
             text-decoration: none;
             border: 1px solid #13B97D;
@@ -272,10 +273,17 @@
             padding: 15px 10px;
             border-radius: 10px;
             margin: 10px;
-            &:hover{
-              background: #13B97D;
-              color: #fff;
+
+            &:hover {
+                background: #13B97D;
+                color: #fff;
             }
         }
     }
+}
+
+#footwrap {
+    display: block;
+    float: left;
+    width: 100%;
 }

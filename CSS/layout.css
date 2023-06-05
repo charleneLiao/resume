@@ -278,4 +278,9 @@ h3.title {
         background: #13B97D;
         color: #fff; }
 
+#footwrap {
+  display: block;
+  float: left;
+  width: 100%; }
+
 /*# sourceMappingURL=layout.css.map */

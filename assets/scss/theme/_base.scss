@@ -209,7 +209,9 @@ a.text-link {
 		
 	}
 }
-
+#menuwrap{
+	position: absolute;
+}
 /* Main wrapper */
 .main-wrapper {
 	margin-left: $sidebar-width;
